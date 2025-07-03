@@ -20,8 +20,28 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
 }
+.modal-row { 
+  display: flex;
+  flex-direction: column;
+}
+.stat { 
+  display: flex;
+}
+.header-block { 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 19px;
 
+}
+.text { 
+  padding: 1rem 0;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -56,6 +76,10 @@ button {
   border-radius: 8px;
 }
 
+.buttons { 
+  display: flex;
+  gap: 1rem;
+}
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
