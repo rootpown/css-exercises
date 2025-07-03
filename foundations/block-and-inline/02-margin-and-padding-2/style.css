@@ -7,21 +7,34 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 5px 10px;
+  
 }
 
+
 .title {
+  
+
   background: #e3f4ff;
 }
 
 .content {
   background: #e3f4ff;
+  font-size: 16px;
+  padding: 14px 12px;
+
 }
 
 .button-container {
+  text-align: center;
   background: #e3f4ff;
+  margin: 10px 0;
+  padding: 13px 2px;
 }
 
 button {
+  display: block;
+  margin: 0 auto;
   background: white;
   border: 1px solid #eee;
 }
